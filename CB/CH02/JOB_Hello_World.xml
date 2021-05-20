@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<DataIntegratorExport repositoryVersion="14.2.14.0000" productVersion="14.2.14.2660">
+<DIJob name="JOB_Hello_World" typeId="2" >
+<DISteps>
+<DICallStep typeId="1"  calledObjectType="Dataflow" name="DF_HelloWorld" >
+</DICallStep>
+</DISteps>
+<DIAttributes>
+<DIAttribute name="job_checkpoint_enabled" value="no"/>
+<DIAttribute name="job_collect_statistics" value="no"/>
+<DIAttribute name="job_collect_statistics_monitor" value="no"/>
+<DIAttribute name="job_create_debug_package" value="no"/>
+<DIAttribute name="job_enable_assemblers" value="yes"/>
+<DIAttribute name="job_enable_audit" value="yes"/>
+<DIAttribute name="job_enable_dataquality" value="yes"/>
+<DIAttribute name="job_export_repo" value="no"/>
+<DIAttribute name="job_export_reports" value="no"/>
+<DIAttribute name="job_isrecoverable" value="no"/>
+<DIAttribute name="job_mode" value="Multi-Process"/>
+<DIAttribute name="job_monitor_sample_rate" value="1000"/>
+<DIAttribute name="job_monitor_timer_rate" value="5"/>
+<DIAttribute name="job_name" value="JOB_Hello_World"/>
+<DIAttribute name="job_print_version" value="no"/>
+<DIAttribute name="job_testmode_enabled" value="no"/>
+<DIAttribute name="job_trace_abapquery" value="no"/>
+<DIAttribute name="job_trace_all" value="no"/>
+<DIAttribute name="job_trace_ascomm" value="no"/>
+<DIAttribute name="job_trace_assemblers" value="no"/>
+<DIAttribute name="job_trace_audit" value="no"/>
+<DIAttribute name="job_trace_dataflow" value="yes"/>
+<DIAttribute name="job_trace_idoc_file" value="no"/>
+<DIAttribute name="job_trace_memory_loader" value="no"/>
+<DIAttribute name="job_trace_memory_reader" value="no"/>
+<DIAttribute name="job_trace_optimized_dataflow" value="no"/>
+<DIAttribute name="job_trace_parallel_execution" value="no"/>
+<DIAttribute name="job_trace_rfc_function" value="no"/>
+<DIAttribute name="job_trace_row" value="no"/>
+<DIAttribute name="job_trace_script" value="no"/>
+<DIAttribute name="job_trace_session" value="yes"/>
+<DIAttribute name="job_trace_sql_only" value="no"/>
+<DIAttribute name="job_trace_sqlfunctions" value="no"/>
+<DIAttribute name="job_trace_sqlloaders" value="no"/>
+<DIAttribute name="job_trace_sqlreaders" value="no"/>
+<DIAttribute name="job_trace_sqltransforms" value="no"/>
+<DIAttribute name="job_trace_stored_procedure" value="no"/>
+<DIAttribute name="job_trace_table" value="no"/>
+<DIAttribute name="job_trace_table_reader" value="no"/>
+<DIAttribute name="job_trace_transform" value="no"/>
+<DIAttribute name="job_trace_userfunction" value="no"/>
+<DIAttribute name="job_trace_usertransform" value="no"/>
+<DIAttribute name="job_trace_workflow" value="yes"/>
+<DIAttribute name="job_type" value="batch"/>
+<DIAttribute name="job_use_statistics" value="yes"/>
+<DIAttribute name="locale_codepage" value="&lt;default&gt;"/>
+<DIAttribute name="locale_language" value="&lt;default&gt;"/>
+<DIAttribute name="locale_territory" value="&lt;default&gt;"/>
+</DIAttributes>
+</DIJob>
+
+</DataIntegratorExport>
+
